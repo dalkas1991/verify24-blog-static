@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 sygnałów ostrzegawczych nierzetelnego kontrahenta | Verify24</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; }
+
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: white;
+      padding: 60px 20px 80px;
+      text-align: center;
+    }
+    .hero img { max-width: 160px; margin-bottom: 30px; }
+    .hero h1 {
+      font-size: 2.2em;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+    .hero h1 span { color: #f5a623; }
+    .hero p {
+      font-size: 1.15em;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      opacity: 0.9;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+
+    .content { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .benefit {
+      background: #f8f9fa;
+      padding: 25px;
+      border-radius: 12px;
+      border-left: 4px solid #2E5BFF;
+    }
+    .benefit h3 { color: #2E5BFF; margin-bottom: 8px; font-size: 1.1em; }
+    .benefit p { font-size: 0.95em; color: #555; }
+
+    .form-section {
+      background: #f0f4ff;
+      padding: 60px 20px;
+    }
+    .form-box {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 5px;
+      color: #1a1a2e;
+      font-size: 1.5em;
+    }
+    .form-box .subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 25px;
+      font-size: 0.95em;
+    }
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-size: 0.9em;
+      color: #444;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 12px 15px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus {
+      outline: none;
+      border-color: #2E5BFF;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #2E5BFF 0%, #1a3dbf 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    .submit-btn:hover { transform: translateY(-1px); }
+    .submit-btn:active { transform: translateY(0); }
+    .form-note {
+      text-align: center;
+      margin-top: 12px;
+      font-size: 0.8em;
+      color: #999;
+    }
+
+    .preview {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .preview h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #1a1a2e;
+    }
+    .preview-list { list-style: none; }
+    .preview-list li {
+      padding: 15px 20px;
+      margin-bottom: 10px;
+      background: white;
+      border-radius: 8px;
+      border: 1px solid #eee;
+      font-size: 1.05em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .preview-list .num {
+      background: #2E5BFF;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9em;
+      flex-shrink: 0;
+    }
+
+    .social-proof {
+      background: #1a1a2e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .social-proof p { font-size: 1.1em; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+    .social-proof strong { color: #f5a623; }
+
+    .footer {
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.85em;
+      color: #999;
+    }
+    .footer a { color: #2E5BFF; text-decoration: none; }
+
+    .thank-you { display: none; text-align: center; padding: 40px 0; }
+    .thank-you h2 { color: #27ae60; margin-bottom: 15px; }
+
+    .error-msg {
+      color: #e74c3c;
+      font-size: 0.85em;
+      margin-top: 5px;
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 1.6em; }
+      .form-box { padding: 25px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="logo.png" alt="Verify24">
+    <h1>7 sygnałów ostrzegawczych<br><span>nierzetelnego kontrahenta</span><br>w transporcie</h1>
+    <p>Darmowy poradnik, który pomoże Ci rozpoznać ryzykownego kontrahenta zanim weźmiesz zlecenie.</p>
+    <div class="badge">PDF | Darmowy | Bez zobowiązań</div>
+  </div>
+
+  <div class="benefits">
+    <div class="benefit">
+      <h3>Dla firm transportowych</h3>
+      <p>Napisany przez ludzi z branży. Konkretne przykłady, nie teoria z podręcznika.</p>
+    </div>
+    <div class="benefit">
+      <h3>Praktyczna checklista</h3>
+      <p>7 red flags, które sprawdzisz w kilka minut przed przyjęciem zlecenia.</p>
+    </div>
+    <div class="benefit">
+      <h3>Prawdziwe liczby</h3>
+      <p>Ile kosztuje niesprawdzony kontrahent? Statystyki z polskiego rynku transportowego.</p>
+    </div>
+  </div>
+
+  <div class="preview">
+    <h2>Co znajdziesz w poradniku?</h2>
+    <ul class="preview-list">
+      <li><span class="num">1</span> Firma zarejestrowana krócej niż 12 miesięcy</li>
+      <li><span class="num">2</span> Brak wpisu w KRS lub nieaktualny REGON</li>
+      <li><span class="num">3</span> Zajęcia komornicze i zaległości w ZUS/US</li>
+      <li><span class="num">4</span> Negatywne opinie na giełdach transportowych</li>
+      <li><span class="num">5</span> Niezgodność danych adresowych</li>
+      <li><span class="num">6</span> Brak polis OCP lub przeterminowane ubezpieczenie</li>
+      <li><span class="num">7</span> Zlecenia poniżej stawek rynkowych</li>
+    </ul>
+  </div>
+
+  <div class="form-section">
+    <div class="form-box">
+      <div id="form-content">
+        <h2>Pobierz darmowy poradnik</h2>
+        <p class="subtitle">Wpisz dane i otrzymaj PDF na maila w ciągu minuty</p>
+        <form id="lead-form">
+          <div class="form-group">
+            <label for="imie">Imię</label>
+            <input type="text" id="imie" name="imie" required placeholder="Twoje imię">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="twoj@email.pl">
+            <div class="error-msg" id="email-error">Podaj prawidłowy adres email</div>
+          </div>
+          <div class="form-group">
+            <label for="nip">NIP firmy (opcjonalnie)</label>
+            <input type="text" id="nip" name="nip" placeholder="np. 1234567890" maxlength="13">
+          </div>
+          <button type="submit" class="submit-btn" id="submit-btn">Wyślij mi poradnik</button>
+          <p class="form-note">Nie spamujemy. Możesz się wypisać w każdej chwili.</p>
+        </form>
+      </div>
+      <div class="thank-you" id="thank-you">
+        <h2>Gotowe!</h2>
+        <p>Poradnik został wysłany na Twój email.<br>Sprawdź skrzynkę (i folder spam).</p>
+        <p style="margin-top:20px"><a href="https://verify24.pl" style="color:#2E5BFF;font-weight:bold;">Chcesz sprawdzić kontrahenta od razu? verify24.pl</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="social-proof">
+    <p><strong>Verify24</strong> to narzędzie stworzone przez ludzi z branży transportowej. Wpisujesz NIP, dostajesz scoring ryzyka w 30 sekund.</p>
+  </div>
+
+  <div class="footer">
+    <p><a href="https://verify24.pl">Verify24</a> | kontakt@verify24.pl | &copy; 2026</p>
+  </div>
+
+  <script>
+    const BACKEND_URL = 'https://serwer2616850.home.pl/poradnik/submit.php';
+
+    document.getElementById('lead-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const btn = document.getElementById('submit-btn');
+      btn.textContent = 'Wysyłam...';
+      btn.disabled = true;
+
+      const formData = new FormData(this);
+
+      try {
+        const response = await fetch(BACKEND_URL, {
+          method: 'POST',
+          body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          document.getElementById('form-content').querySelector('form').style.display = 'none';
+          document.getElementById('form-content').querySelector('h2').style.display = 'none';
+          document.getElementById('form-content').querySelector('.subtitle').style.display = 'none';
+          document.getElementById('thank-you').style.display = 'block';
+        } else {
+          alert(result.message || 'Wystąpił błąd. Spróbuj ponownie.');
+          btn.textContent = 'Wyślij mi poradnik';
+          btn.disabled = false;
+        }
+      } catch (err) {
+        alert('Błąd połączenia. Spróbuj ponownie.');
+        btn.textContent = 'Wyślij mi poradnik';
+        btn.disabled = false;
+      }
+    });
+  </script>
+
+</body>
+</html>

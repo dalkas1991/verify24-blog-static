@@ -3,15 +3,26 @@
     "id": 1,
     "slug": "jak-sprawdzic-firme-w-krs",
     "titleHint": "Jak sprawdzić firmę w KRS? Praktyczny przewodnik",
-    "keywords": ["sprawdzenie firmy w KRS", "KRS wyszukiwarka", "rejestr KRS", "weryfikacja spółki"],
+    "keywords": [
+      "sprawdzenie firmy w KRS",
+      "KRS wyszukiwarka",
+      "rejestr KRS",
+      "weryfikacja spółki"
+    ],
     "category": "KRS",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-02-09T17:54:43.025Z"
   },
   {
     "id": 2,
     "slug": "co-to-jest-biala-lista-vat",
     "titleHint": "Biała lista VAT - co to jest i jak z niej korzystać?",
-    "keywords": ["biała lista VAT", "wykaz podatników VAT", "weryfikacja VAT", "biała lista podatników"],
+    "keywords": [
+      "biała lista VAT",
+      "wykaz podatników VAT",
+      "weryfikacja VAT",
+      "biała lista podatników"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -19,7 +30,12 @@
     "id": 3,
     "slug": "weryfikacja-kontrahenta-w-transporcie",
     "titleHint": "Weryfikacja kontrahenta w branży transportowej - na co zwrócić uwagę?",
-    "keywords": ["weryfikacja przewoźnika", "sprawdzenie firmy transportowej", "kontrahent transport", "licencja transportowa"],
+    "keywords": [
+      "weryfikacja przewoźnika",
+      "sprawdzenie firmy transportowej",
+      "kontrahent transport",
+      "licencja transportowa"
+    ],
     "category": "transport",
     "status": "pending"
   },
@@ -27,7 +43,12 @@
     "id": 4,
     "slug": "jak-sprawdzic-czy-firma-jest-platnikiem-vat",
     "titleHint": "Jak sprawdzić czy firma jest płatnikiem VAT?",
-    "keywords": ["sprawdzenie płatnika VAT", "czy firma jest VAT-owcem", "status VAT kontrahenta", "czynny podatnik VAT"],
+    "keywords": [
+      "sprawdzenie płatnika VAT",
+      "czy firma jest VAT-owcem",
+      "status VAT kontrahenta",
+      "czynny podatnik VAT"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -35,7 +56,12 @@
     "id": 5,
     "slug": "co-to-jest-ceidg",
     "titleHint": "CEIDG - czym jest i jak sprawdzić firmę w rejestrze?",
-    "keywords": ["CEIDG", "centralna ewidencja", "wyszukiwarka CEIDG", "rejestr działalności gospodarczej"],
+    "keywords": [
+      "CEIDG",
+      "centralna ewidencja",
+      "wyszukiwarka CEIDG",
+      "rejestr działalności gospodarczej"
+    ],
     "category": "CEIDG",
     "status": "pending"
   },
@@ -43,7 +69,12 @@
     "id": 6,
     "slug": "jak-uniknac-oszustwa-na-fakture",
     "titleHint": "Jak uniknąć oszustwa na fakturę? Praktyczne porady",
-    "keywords": ["oszustwo na fakturę", "fałszywa faktura", "wyłudzenie fakturowe", "bezpieczeństwo faktur"],
+    "keywords": [
+      "oszustwo na fakturę",
+      "fałszywa faktura",
+      "wyłudzenie fakturowe",
+      "bezpieczeństwo faktur"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -51,7 +82,12 @@
     "id": 7,
     "slug": "scoring-ryzyka-kontrahenta",
     "titleHint": "Scoring ryzyka kontrahenta - jak ocenić wiarygodność firmy?",
-    "keywords": ["scoring ryzyka", "ocena kontrahenta", "wiarygodność firmy", "rating biznesowy"],
+    "keywords": [
+      "scoring ryzyka",
+      "ocena kontrahenta",
+      "wiarygodność firmy",
+      "rating biznesowy"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -59,7 +95,12 @@
     "id": 8,
     "slug": "jak-sprawdzic-nip-kontrahenta",
     "titleHint": "Jak sprawdzić NIP kontrahenta? Wszystko co musisz wiedzieć",
-    "keywords": ["sprawdzenie NIP", "weryfikacja NIP", "wyszukiwanie po NIP", "numer NIP firmy"],
+    "keywords": [
+      "sprawdzenie NIP",
+      "weryfikacja NIP",
+      "wyszukiwanie po NIP",
+      "numer NIP firmy"
+    ],
     "category": "NIP",
     "status": "pending"
   },
@@ -67,7 +108,11 @@
     "id": 9,
     "slug": "odpowiedzialnosc-solidarna-vat",
     "titleHint": "Odpowiedzialność solidarna w VAT - kiedy grozi i jak się chronić?",
-    "keywords": ["odpowiedzialność solidarna VAT", "należyta staranność VAT", "ochrona przed solidarną odpowiedzialnością"],
+    "keywords": [
+      "odpowiedzialność solidarna VAT",
+      "należyta staranność VAT",
+      "ochrona przed solidarną odpowiedzialnością"
+    ],
     "category": "prawo",
     "status": "pending"
   },
@@ -75,7 +120,12 @@
     "id": 10,
     "slug": "jak-sprawdzic-regon-firmy",
     "titleHint": "Jak sprawdzić REGON firmy? Poradnik krok po kroku",
-    "keywords": ["sprawdzenie REGON", "wyszukiwarka REGON", "numer REGON firmy", "GUS REGON"],
+    "keywords": [
+      "sprawdzenie REGON",
+      "wyszukiwarka REGON",
+      "numer REGON firmy",
+      "GUS REGON"
+    ],
     "category": "NIP",
     "status": "pending"
   },
@@ -83,7 +133,12 @@
     "id": 11,
     "slug": "due-diligence-kontrahenta",
     "titleHint": "Due diligence kontrahenta - jak przeprowadzić badanie wiarygodności?",
-    "keywords": ["due diligence", "badanie kontrahenta", "analiza wiarygodności", "weryfikacja biznesowa"],
+    "keywords": [
+      "due diligence",
+      "badanie kontrahenta",
+      "analiza wiarygodności",
+      "weryfikacja biznesowa"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -91,7 +146,12 @@
     "id": 12,
     "slug": "karuzela-vat-jak-sie-chronic",
     "titleHint": "Karuzela VAT - czym jest i jak się przed nią chronić?",
-    "keywords": ["karuzela VAT", "oszustwo karuzelowe", "wyłudzenie VAT", "ochrona przed karuzelą"],
+    "keywords": [
+      "karuzela VAT",
+      "oszustwo karuzelowe",
+      "wyłudzenie VAT",
+      "ochrona przed karuzelą"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -99,7 +159,12 @@
     "id": 13,
     "slug": "sprawdzenie-kontrahenta-zagranicznego",
     "titleHint": "Jak sprawdzić zagranicznego kontrahenta? Praktyczny przewodnik",
-    "keywords": ["weryfikacja kontrahenta zagranicznego", "sprawdzenie firmy zagranicznej", "VIES", "kontrahent zagraniczny"],
+    "keywords": [
+      "weryfikacja kontrahenta zagranicznego",
+      "sprawdzenie firmy zagranicznej",
+      "VIES",
+      "kontrahent zagraniczny"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -107,7 +172,12 @@
     "id": 14,
     "slug": "licencja-transportowa-jak-sprawdzic",
     "titleHint": "Licencja transportowa - jak sprawdzić czy przewoźnik ją posiada?",
-    "keywords": ["licencja transportowa", "zezwolenie na transport", "sprawdzenie przewoźnika", "GITD"],
+    "keywords": [
+      "licencja transportowa",
+      "zezwolenie na transport",
+      "sprawdzenie przewoźnika",
+      "GITD"
+    ],
     "category": "transport",
     "status": "pending"
   },
@@ -115,7 +185,12 @@
     "id": 15,
     "slug": "znaki-ostrzegawcze-nierzetelnego-kontrahenta",
     "titleHint": "7 znaków ostrzegawczych nierzetelnego kontrahenta",
-    "keywords": ["nierzetelny kontrahent", "znaki ostrzegawcze", "red flags biznesowe", "oszustwo biznesowe"],
+    "keywords": [
+      "nierzetelny kontrahent",
+      "znaki ostrzegawcze",
+      "red flags biznesowe",
+      "oszustwo biznesowe"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -123,7 +198,12 @@
     "id": 16,
     "slug": "jak-czytac-sprawozdanie-finansowe",
     "titleHint": "Jak czytać sprawozdanie finansowe kontrahenta? Poradnik dla przedsiębiorców",
-    "keywords": ["sprawozdanie finansowe", "bilans firmy", "rachunek zysków i strat", "analiza finansowa kontrahenta"],
+    "keywords": [
+      "sprawozdanie finansowe",
+      "bilans firmy",
+      "rachunek zysków i strat",
+      "analiza finansowa kontrahenta"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -131,7 +211,12 @@
     "id": 17,
     "slug": "nalezysta-starannosc-w-vat",
     "titleHint": "Należyta staranność w VAT - jak ją wykazać i dlaczego jest ważna?",
-    "keywords": ["należyta staranność", "procedury VAT", "weryfikacja kontrahenta VAT", "ochrona odliczenia VAT"],
+    "keywords": [
+      "należyta staranność",
+      "procedury VAT",
+      "weryfikacja kontrahenta VAT",
+      "ochrona odliczenia VAT"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -139,7 +224,12 @@
     "id": 18,
     "slug": "rejestr-dluznikow-jak-sprawdzic",
     "titleHint": "Rejestr dłużników - jak sprawdzić czy kontrahent ma długi?",
-    "keywords": ["rejestr dłużników", "BIG", "KRD", "sprawdzenie zadłużenia firmy"],
+    "keywords": [
+      "rejestr dłużników",
+      "BIG",
+      "KRD",
+      "sprawdzenie zadłużenia firmy"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -147,7 +237,12 @@
     "id": 19,
     "slug": "umowa-z-nowym-kontrahentem-checklist",
     "titleHint": "Umowa z nowym kontrahentem - checklista przed podpisaniem",
-    "keywords": ["umowa z kontrahentem", "checklist umowa", "zabezpieczenie umowy", "weryfikacja przed umową"],
+    "keywords": [
+      "umowa z kontrahentem",
+      "checklist umowa",
+      "zabezpieczenie umowy",
+      "weryfikacja przed umową"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -155,7 +250,12 @@
     "id": 20,
     "slug": "split-payment-mechanizm-podzielonej-platnosci",
     "titleHint": "Split payment - jak działa mechanizm podzielonej płatności?",
-    "keywords": ["split payment", "podzielona płatność", "MPP", "mechanizm podzielonej płatności VAT"],
+    "keywords": [
+      "split payment",
+      "podzielona płatność",
+      "MPP",
+      "mechanizm podzielonej płatności VAT"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -163,7 +263,12 @@
     "id": 21,
     "slug": "jak-sprawdzic-komornika-firmy",
     "titleHint": "Jak sprawdzić czy firma ma komornika? Praktyczny poradnik",
-    "keywords": ["komornik firmy", "zajęcie komornicze", "egzekucja komornicza", "sprawdzenie komornika"],
+    "keywords": [
+      "komornik firmy",
+      "zajęcie komornicze",
+      "egzekucja komornicza",
+      "sprawdzenie komornika"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -171,7 +276,12 @@
     "id": 22,
     "slug": "weryfikacja-podwykonawcow-budowlanych",
     "titleHint": "Weryfikacja podwykonawców w branży budowlanej",
-    "keywords": ["weryfikacja podwykonawcy", "podwykonawca budowlany", "sprawdzenie firmy budowlanej", "ryzyko budowlane"],
+    "keywords": [
+      "weryfikacja podwykonawcy",
+      "podwykonawca budowlany",
+      "sprawdzenie firmy budowlanej",
+      "ryzyko budowlane"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -179,7 +289,12 @@
     "id": 23,
     "slug": "jpk-vat-co-to-jest",
     "titleHint": "JPK_VAT - co to jest i dlaczego jest ważny dla weryfikacji?",
-    "keywords": ["JPK VAT", "jednolity plik kontrolny", "raportowanie VAT", "JPK_V7"],
+    "keywords": [
+      "JPK VAT",
+      "jednolity plik kontrolny",
+      "raportowanie VAT",
+      "JPK_V7"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -187,7 +302,12 @@
     "id": 24,
     "slug": "jak-odzyskac-pieniadze-od-kontrahenta",
     "titleHint": "Jak odzyskać pieniądze od nierzetelnego kontrahenta?",
-    "keywords": ["odzyskiwanie należności", "windykacja", "nierzetelny kontrahent", "dochodzenie roszczeń"],
+    "keywords": [
+      "odzyskiwanie należności",
+      "windykacja",
+      "nierzetelny kontrahent",
+      "dochodzenie roszczeń"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -195,7 +315,12 @@
     "id": 25,
     "slug": "giodo-rodo-weryfikacja-kontrahentow",
     "titleHint": "RODO a weryfikacja kontrahentów - co wolno sprawdzać?",
-    "keywords": ["RODO weryfikacja", "ochrona danych kontrahent", "GIODO", "przetwarzanie danych biznesowych"],
+    "keywords": [
+      "RODO weryfikacja",
+      "ochrona danych kontrahent",
+      "GIODO",
+      "przetwarzanie danych biznesowych"
+    ],
     "category": "prawo",
     "status": "pending"
   },
@@ -203,7 +328,12 @@
     "id": 26,
     "slug": "upadlosc-firmy-jak-sprawdzic",
     "titleHint": "Upadłość firmy - jak sprawdzić czy kontrahent jest w upadłości?",
-    "keywords": ["upadłość firmy", "sprawdzenie upadłości", "restrukturyzacja", "KRZ"],
+    "keywords": [
+      "upadłość firmy",
+      "sprawdzenie upadłości",
+      "restrukturyzacja",
+      "KRZ"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -211,7 +341,12 @@
     "id": 27,
     "slug": "weryfikacja-kontrahenta-e-commerce",
     "titleHint": "Weryfikacja kontrahenta w e-commerce - jak nie dać się oszukać?",
-    "keywords": ["weryfikacja e-commerce", "oszustwo internetowe", "bezpieczeństwo zakupów B2B", "kontrahent online"],
+    "keywords": [
+      "weryfikacja e-commerce",
+      "oszustwo internetowe",
+      "bezpieczeństwo zakupów B2B",
+      "kontrahent online"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -219,7 +354,12 @@
     "id": 28,
     "slug": "faktoring-a-weryfikacja-kontrahenta",
     "titleHint": "Faktoring a weryfikacja kontrahenta - dlaczego warto sprawdzić firmę?",
-    "keywords": ["faktoring", "weryfikacja do faktoringu", "ocena kontrahenta faktoring", "ryzyko faktoringowe"],
+    "keywords": [
+      "faktoring",
+      "weryfikacja do faktoringu",
+      "ocena kontrahenta faktoring",
+      "ryzyko faktoringowe"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -227,7 +367,12 @@
     "id": 29,
     "slug": "oze-weryfikacja-instalatora",
     "titleHint": "OZE - jak zweryfikować instalatora fotowoltaiki?",
-    "keywords": ["weryfikacja instalatora OZE", "fotowoltaika oszustwo", "sprawdzenie firmy fotowoltaicznej", "instalator paneli"],
+    "keywords": [
+      "weryfikacja instalatora OZE",
+      "fotowoltaika oszustwo",
+      "sprawdzenie firmy fotowoltaicznej",
+      "instalator paneli"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -235,7 +380,12 @@
     "id": 30,
     "slug": "krajowy-rejestr-sadowy-online",
     "titleHint": "Krajowy Rejestr Sądowy online - jak szukać informacji o spółkach?",
-    "keywords": ["KRS online", "wyszukiwarka KRS", "ekrs.ms.gov.pl", "rejestr sądowy"],
+    "keywords": [
+      "KRS online",
+      "wyszukiwarka KRS",
+      "ekrs.ms.gov.pl",
+      "rejestr sądowy"
+    ],
     "category": "KRS",
     "status": "pending"
   },
@@ -243,7 +393,12 @@
     "id": 31,
     "slug": "zabezpieczenie-transakcji-handlowej",
     "titleHint": "Zabezpieczenie transakcji handlowej - praktyczne metody",
-    "keywords": ["zabezpieczenie transakcji", "gwarancja bankowa", "akredytywa", "ubezpieczenie należności"],
+    "keywords": [
+      "zabezpieczenie transakcji",
+      "gwarancja bankowa",
+      "akredytywa",
+      "ubezpieczenie należności"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -251,7 +406,12 @@
     "id": 32,
     "slug": "weryfikacja-kontrahenta-przetargi-publiczne",
     "titleHint": "Weryfikacja kontrahenta w przetargach publicznych",
-    "keywords": ["przetargi publiczne", "zamówienia publiczne", "weryfikacja oferenta", "KIO"],
+    "keywords": [
+      "przetargi publiczne",
+      "zamówienia publiczne",
+      "weryfikacja oferenta",
+      "KIO"
+    ],
     "category": "prawo",
     "status": "pending"
   },
@@ -259,7 +419,12 @@
     "id": 33,
     "slug": "podatek-u-zrodla-wht",
     "titleHint": "Podatek u źródła (WHT) - obowiązki weryfikacyjne",
-    "keywords": ["podatek u źródła", "WHT", "withholding tax", "obowiązki weryfikacyjne WHT"],
+    "keywords": [
+      "podatek u źródła",
+      "WHT",
+      "withholding tax",
+      "obowiązki weryfikacyjne WHT"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -267,7 +432,12 @@
     "id": 34,
     "slug": "lista-sankcyjna-jak-sprawdzic",
     "titleHint": "Lista sankcyjna - jak sprawdzić czy kontrahent jest na liście?",
-    "keywords": ["lista sankcyjna", "sankcje", "weryfikacja sankcyjna", "embargo"],
+    "keywords": [
+      "lista sankcyjna",
+      "sankcje",
+      "weryfikacja sankcyjna",
+      "embargo"
+    ],
     "category": "prawo",
     "status": "pending"
   },
@@ -275,7 +445,12 @@
     "id": 35,
     "slug": "aml-przeciwdzialanie-praniu-pieniedzy",
     "titleHint": "AML - obowiązki przedsiębiorcy w zakresie przeciwdziałania praniu pieniędzy",
-    "keywords": ["AML", "przeciwdziałanie praniu pieniędzy", "KYC", "obowiązki AML"],
+    "keywords": [
+      "AML",
+      "przeciwdziałanie praniu pieniędzy",
+      "KYC",
+      "obowiązki AML"
+    ],
     "category": "prawo",
     "status": "pending"
   },
@@ -283,7 +458,12 @@
     "id": 36,
     "slug": "elektroniczna-weryfikacja-kontrahenta",
     "titleHint": "Elektroniczna weryfikacja kontrahenta - jakie narzędzia warto znać?",
-    "keywords": ["narzędzia weryfikacji", "automatyczna weryfikacja", "systemy weryfikacyjne", "API weryfikacja"],
+    "keywords": [
+      "narzędzia weryfikacji",
+      "automatyczna weryfikacja",
+      "systemy weryfikacyjne",
+      "API weryfikacja"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -291,7 +471,12 @@
     "id": 37,
     "slug": "wywiadownia-gospodarcza",
     "titleHint": "Wywiadownia gospodarcza - czym jest i kiedy warto z niej skorzystać?",
-    "keywords": ["wywiadownia gospodarcza", "raport handlowy", "informacja gospodarcza", "ocena wiarygodności"],
+    "keywords": [
+      "wywiadownia gospodarcza",
+      "raport handlowy",
+      "informacja gospodarcza",
+      "ocena wiarygodności"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -299,7 +484,12 @@
     "id": 38,
     "slug": "weryfikacja-kontrahenta-gastronomia",
     "titleHint": "Weryfikacja dostawców w gastronomii - bezpieczeństwo łańcucha dostaw",
-    "keywords": ["weryfikacja dostawcy gastronomia", "bezpieczeństwo żywności", "łańcuch dostaw", "dostawca gastronomiczny"],
+    "keywords": [
+      "weryfikacja dostawcy gastronomia",
+      "bezpieczeństwo żywności",
+      "łańcuch dostaw",
+      "dostawca gastronomiczny"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -307,7 +497,12 @@
     "id": 39,
     "slug": "beneficjent-rzeczywisty-crbr",
     "titleHint": "Beneficjent rzeczywisty (CRBR) - jak sprawdzić kto stoi za firmą?",
-    "keywords": ["beneficjent rzeczywisty", "CRBR", "UBO", "struktura własnościowa"],
+    "keywords": [
+      "beneficjent rzeczywisty",
+      "CRBR",
+      "UBO",
+      "struktura własnościowa"
+    ],
     "category": "KRS",
     "status": "pending"
   },
@@ -315,7 +510,12 @@
     "id": 40,
     "slug": "sygnaly-wczesnego-ostrzegania-upadlosc",
     "titleHint": "Sygnały wczesnego ostrzegania przed upadłością kontrahenta",
-    "keywords": ["sygnały upadłości", "wczesne ostrzeganie", "monitoring kontrahenta", "pogorszenie kondycji"],
+    "keywords": [
+      "sygnały upadłości",
+      "wczesne ostrzeganie",
+      "monitoring kontrahenta",
+      "pogorszenie kondycji"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -323,7 +523,12 @@
     "id": 41,
     "slug": "weryfikacja-kontrahenta-eksport",
     "titleHint": "Weryfikacja kontrahenta przy eksporcie - jak minimalizować ryzyko?",
-    "keywords": ["eksport weryfikacja", "kontrahent zagraniczny eksport", "ryzyko eksportowe", "ubezpieczenie eksportu"],
+    "keywords": [
+      "eksport weryfikacja",
+      "kontrahent zagraniczny eksport",
+      "ryzyko eksportowe",
+      "ubezpieczenie eksportu"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -331,7 +536,12 @@
     "id": 42,
     "slug": "rejestr-zastawow-jak-sprawdzic",
     "titleHint": "Rejestr zastawów - jak sprawdzić obciążenia majątku firmy?",
-    "keywords": ["rejestr zastawów", "zastaw rejestrowy", "obciążenia majątku", "sprawdzenie zastawów"],
+    "keywords": [
+      "rejestr zastawów",
+      "zastaw rejestrowy",
+      "obciążenia majątku",
+      "sprawdzenie zastawów"
+    ],
     "category": "KRS",
     "status": "pending"
   },
@@ -339,7 +549,12 @@
     "id": 43,
     "slug": "weryfikacja-kontrahenta-branzy-it",
     "titleHint": "Weryfikacja kontrahenta w branży IT - na co zwrócić uwagę?",
-    "keywords": ["weryfikacja firma IT", "kontrahent IT", "outsourcing IT weryfikacja", "ryzyko współpracy IT"],
+    "keywords": [
+      "weryfikacja firma IT",
+      "kontrahent IT",
+      "outsourcing IT weryfikacja",
+      "ryzyko współpracy IT"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -347,7 +562,12 @@
     "id": 44,
     "slug": "polityka-kredytowa-wobec-kontrahentow",
     "titleHint": "Polityka kredytowa wobec kontrahentów - jak zarządzać ryzykiem?",
-    "keywords": ["polityka kredytowa", "limit kredytowy", "zarządzanie należnościami", "ryzyko kredytowe"],
+    "keywords": [
+      "polityka kredytowa",
+      "limit kredytowy",
+      "zarządzanie należnościami",
+      "ryzyko kredytowe"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -355,7 +575,12 @@
     "id": 45,
     "slug": "pkd-firmy-jak-sprawdzic",
     "titleHint": "PKD firmy - jak sprawdzić i dlaczego jest ważne?",
-    "keywords": ["PKD firmy", "kod PKD", "klasyfikacja działalności", "sprawdzenie PKD"],
+    "keywords": [
+      "PKD firmy",
+      "kod PKD",
+      "klasyfikacja działalności",
+      "sprawdzenie PKD"
+    ],
     "category": "NIP",
     "status": "pending"
   },
@@ -363,7 +588,12 @@
     "id": 46,
     "slug": "monitoring-kontrahentow-automatyczny",
     "titleHint": "Monitoring kontrahentów - jak automatycznie śledzić zmiany w firmie?",
-    "keywords": ["monitoring kontrahentów", "śledzenie zmian", "alert kontrahent", "automatyczny monitoring"],
+    "keywords": [
+      "monitoring kontrahentów",
+      "śledzenie zmian",
+      "alert kontrahent",
+      "automatyczny monitoring"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -371,7 +601,12 @@
     "id": 47,
     "slug": "weryfikacja-kontrahenta-leasing",
     "titleHint": "Weryfikacja kontrahenta przy leasingu - co sprawdzić?",
-    "keywords": ["leasing weryfikacja", "kontrahent leasing", "ocena leasingowa", "zdolność leasingowa"],
+    "keywords": [
+      "leasing weryfikacja",
+      "kontrahent leasing",
+      "ocena leasingowa",
+      "zdolność leasingowa"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -379,7 +614,12 @@
     "id": 48,
     "slug": "cesja-wierzytelnosci-a-weryfikacja",
     "titleHint": "Cesja wierzytelności - jak zweryfikować dłużnika przed cesją?",
-    "keywords": ["cesja wierzytelności", "przelew wierzytelności", "weryfikacja dłużnika", "obrót wierzytelnościami"],
+    "keywords": [
+      "cesja wierzytelności",
+      "przelew wierzytelności",
+      "weryfikacja dłużnika",
+      "obrót wierzytelnościami"
+    ],
     "category": "prawo",
     "status": "pending"
   },
@@ -387,7 +627,12 @@
     "id": 49,
     "slug": "weryfikacja-kontrahenta-rolnictwo",
     "titleHint": "Weryfikacja kontrahentów w rolnictwie i branży spożywczej",
-    "keywords": ["weryfikacja rolnictwo", "kontrahent rolny", "branża spożywcza", "dostawca rolny"],
+    "keywords": [
+      "weryfikacja rolnictwo",
+      "kontrahent rolny",
+      "branża spożywcza",
+      "dostawca rolny"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -395,7 +640,12 @@
     "id": 50,
     "slug": "procedura-weryfikacji-kontrahenta-w-firmie",
     "titleHint": "Jak wdrożyć procedurę weryfikacji kontrahentów w firmie?",
-    "keywords": ["procedura weryfikacji", "wdrożenie weryfikacji", "compliance", "proces weryfikacyjny"],
+    "keywords": [
+      "procedura weryfikacji",
+      "wdrożenie weryfikacji",
+      "compliance",
+      "proces weryfikacyjny"
+    ],
     "category": "poradnik",
     "status": "pending"
   },
@@ -403,7 +653,12 @@
     "id": 51,
     "slug": "gtd-weryfikacja-przewoznika-miedzynarodowego",
     "titleHint": "Weryfikacja przewoźnika międzynarodowego - dokumenty i bazy danych",
-    "keywords": ["przewoźnik międzynarodowy", "CMR", "licencja wspólnotowa", "weryfikacja spedytora"],
+    "keywords": [
+      "przewoźnik międzynarodowy",
+      "CMR",
+      "licencja wspólnotowa",
+      "weryfikacja spedytora"
+    ],
     "category": "transport",
     "status": "pending"
   },
@@ -411,7 +666,12 @@
     "id": 52,
     "slug": "koszty-wspolpracy-z-nierzetelnym-kontrahentem",
     "titleHint": "Ile kosztuje współpraca z nierzetelnym kontrahentem? Analiza strat",
-    "keywords": ["koszty nierzetelności", "straty biznesowe", "nierzetelny partner", "analiza ryzyka finansowego"],
+    "keywords": [
+      "koszty nierzetelności",
+      "straty biznesowe",
+      "nierzetelny partner",
+      "analiza ryzyka finansowego"
+    ],
     "category": "ryzyko-biznesowe",
     "status": "pending"
   },
@@ -419,7 +679,12 @@
     "id": 53,
     "slug": "vies-weryfikacja-vat-ue",
     "titleHint": "System VIES - jak sprawdzić numer VAT kontrahenta z UE?",
-    "keywords": ["VIES", "numer VAT UE", "weryfikacja VAT europejska", "NIP europejski"],
+    "keywords": [
+      "VIES",
+      "numer VAT UE",
+      "weryfikacja VAT europejska",
+      "NIP europejski"
+    ],
     "category": "VAT",
     "status": "pending"
   },
@@ -427,7 +692,12 @@
     "id": 54,
     "slug": "jak-sprawdzic-reprezentacje-spolki",
     "titleHint": "Jak sprawdzić reprezentację spółki? Kto może podpisać umowę?",
-    "keywords": ["reprezentacja spółki", "KRS zarząd", "pełnomocnictwo", "kto podpisuje umowę"],
+    "keywords": [
+      "reprezentacja spółki",
+      "KRS zarząd",
+      "pełnomocnictwo",
+      "kto podpisuje umowę"
+    ],
     "category": "KRS",
     "status": "pending"
   },
@@ -435,7 +705,12 @@
     "id": 55,
     "slug": "weryfikacja-kontrahenta-nieruchomosci",
     "titleHint": "Weryfikacja kontrahenta na rynku nieruchomości - deweloper i wykonawca",
-    "keywords": ["weryfikacja dewelopera", "sprawdzenie wykonawcy", "rynek nieruchomości", "bezpieczeństwo inwestycji"],
+    "keywords": [
+      "weryfikacja dewelopera",
+      "sprawdzenie wykonawcy",
+      "rynek nieruchomości",
+      "bezpieczeństwo inwestycji"
+    ],
     "category": "poradnik",
     "status": "pending"
   }

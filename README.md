@@ -1,37 +1,43 @@
 # VERIFY Blog - Static Site
 
-## Deployment Instructions
+Blog hosted on GitHub Pages at [blog.verify24.pl](https://blog.verify24.pl).
 
-### Cloudflare Pages
-1. Push this folder to GitHub repository
-2. Connect repository to Cloudflare Pages
-3. Build command: (leave empty - static files)
-4. Build output directory: /
-5. Set custom domain: blog.verify24.pl
+## Automated Publishing
 
-### Netlify
-1. Push this folder to GitHub repository
-2. Connect repository to Netlify
-3. Build command: (leave empty - static files)
-4. Publish directory: /
-5. Set custom domain: blog.verify24.pl
+Blog posts are generated automatically **2x per week** (Monday + Thursday at 08:00 UTC) via GitHub Actions + Claude API.
 
-### Manual Upload
-1. Upload all files to web hosting
-2. Point blog.verify24.pl DNS to hosting
-3. Ensure index.html is served as default
+### How it works
 
-## Regenerating Content
+1. GitHub Actions cron triggers `node scripts/generate-post.js`
+2. Script picks next pending topic from `data/topics.json`
+3. Claude API (Sonnet) generates the article in JSON format
+4. Script creates HTML file, updates `index.html` and `sitemap.xml`
+5. Bot commits and pushes → GitHub Pages auto-deploys
 
-Run: `tsx scripts/generateStaticBlog.ts`
+### Setup
 
-This will fetch latest posts from database and regenerate all HTML files.
+1. Add `ANTHROPIC_API_KEY` to repository Settings → Secrets → Actions
+2. Enable GitHub Pages (Settings → Pages → Source: Deploy from branch `main`)
+3. Custom domain: `blog.verify24.pl` (CNAME file included)
+
+### Manual trigger
+
+Go to Actions → "Generate & Publish Blog Post" → Run workflow
+
+### Local test
+
+```bash
+ANTHROPIC_API_KEY=sk-ant-... node scripts/generate-post.js
+```
 
 ## Files Structure
 
-- index.html - Blog listing page
-- [slug].html - Individual blog posts
-- sitemap.xml - SEO sitemap
-- robots.txt - Search engine instructions
-- _headers - Cloudflare Pages headers
-- _redirects - Netlify redirects
+- `index.html` — Blog listing page
+- `[slug].html` — Individual blog posts
+- `sitemap.xml` — SEO sitemap
+- `robots.txt` — Search engine instructions
+- `CNAME` — GitHub Pages custom domain
+- `data/topics.json` — Topic pool with status tracking
+- `scripts/generate-post.js` — Post generator (Claude API)
+- `scripts/templates.js` — HTML templates
+- `.github/workflows/publish-post.yml` — Automation workflow

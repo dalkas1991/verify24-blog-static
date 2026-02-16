@@ -38,7 +38,8 @@
       "licencja transportowa"
     ],
     "category": "transport",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-02-16T10:36:26.791Z"
   },
   {
     "id": 4,

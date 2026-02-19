@@ -52,7 +52,8 @@
       "czynny podatnik VAT"
     ],
     "category": "VAT",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-02-19T10:28:10.384Z"
   },
   {
     "id": 5,

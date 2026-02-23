@@ -35,4 +35,10 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
+<url>
+      <loc>https://blog.verify24.pl/co-to-jest-ceidg.html</loc>
+      <lastmod>2026-02-23</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 </urlset>

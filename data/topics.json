@@ -80,7 +80,8 @@
       "bezpieczeństwo faktur"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-02-26T10:31:33.489Z"
   },
   {
     "id": 7,

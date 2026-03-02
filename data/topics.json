@@ -94,7 +94,8 @@
       "rating biznesowy"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-03-02T10:30:30.638Z"
   },
   {
     "id": 8,

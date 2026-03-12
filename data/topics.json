@@ -135,7 +135,8 @@
       "GUS REGON"
     ],
     "category": "NIP",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-03-12T08:28:48.785Z"
   },
   {
     "id": 11,

@@ -1,0 +1,58 @@
+name: Daily Agent — Verify24
+
+on:
+  schedule:
+    # Poranny brief — 7:00 czasu polskiego (UTC+2 lato / UTC+1 zima)
+    # Ustawione na 5:00 UTC (działa dla CEST = lato)
+    - cron: '0 5 * * 1-5'
+    # Wieczorne podsumowanie — 20:00 czasu polskiego
+    # Ustawione na 18:00 UTC
+    - cron: '0 18 * * 1-5'
+
+  # Możliwość ręcznego uruchomienia z poziomu GitHub → Actions
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Tryb (morning / evening)'
+        required: true
+        default: 'morning'
+        type: choice
+        options: [morning, evening]
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install @anthropic-ai/sdk @sendgrid/mail
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "MODE=${{ github.event.inputs.mode }}" >> $GITHUB_ENV
+          else
+            HOUR=$(date -u +"%H")
+            if [ "$HOUR" -lt "12" ]; then
+              echo "MODE=morning" >> $GITHUB_ENV
+            else
+              echo "MODE=evening" >> $GITHUB_ENV
+            fi
+          fi
+
+      - name: Run daily agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SENDGRID_API_KEY:  ${{ secrets.SENDGRID_API_KEY }}
+          TO_EMAIL:          ${{ secrets.TO_EMAIL }}
+          FROM_EMAIL:        ${{ secrets.FROM_EMAIL }}
+        run: node scripts/daily-agent.js --mode=${{ env.MODE }}

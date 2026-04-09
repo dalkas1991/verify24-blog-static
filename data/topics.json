@@ -233,7 +233,8 @@
       "ochrona odliczenia VAT"
     ],
     "category": "VAT",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-04-09T08:57:38.149Z"
   },
   {
     "id": 18,

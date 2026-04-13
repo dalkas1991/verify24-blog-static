@@ -247,7 +247,8 @@
       "sprawdzenie zadłużenia firmy"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-04-13T09:27:22.457Z"
   },
   {
     "id": 19,

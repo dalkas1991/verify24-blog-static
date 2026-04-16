@@ -261,7 +261,8 @@
       "weryfikacja przed umową"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-04-16T09:08:00.625Z"
   },
   {
     "id": 20,

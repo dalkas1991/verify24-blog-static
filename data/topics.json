@@ -275,7 +275,8 @@
       "mechanizm podzielonej płatności VAT"
     ],
     "category": "VAT",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-04-23T09:16:24.844Z"
   },
   {
     "id": 21,

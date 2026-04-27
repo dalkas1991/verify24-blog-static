@@ -289,7 +289,8 @@
       "sprawdzenie komornika"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-04-27T10:06:32.186Z"
   },
   {
     "id": 22,

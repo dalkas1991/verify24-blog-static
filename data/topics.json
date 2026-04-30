@@ -303,7 +303,8 @@
       "ryzyko budowlane"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-04-30T09:55:50.904Z"
   },
   {
     "id": 23,

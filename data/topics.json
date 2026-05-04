@@ -317,7 +317,8 @@
       "JPK_V7"
     ],
     "category": "VAT",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-05-04T10:05:21.634Z"
   },
   {
     "id": 24,

@@ -331,7 +331,8 @@
       "dochodzenie roszczeń"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-05-07T10:12:17.873Z"
   },
   {
     "id": 25,

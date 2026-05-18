@@ -373,7 +373,8 @@
       "kontrahent online"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-05-18T11:37:04.317Z"
   },
   {
     "id": 28,

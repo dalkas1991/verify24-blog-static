@@ -415,7 +415,8 @@
       "rejestr sądowy"
     ],
     "category": "KRS",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-05-28T11:26:56.454Z"
   },
   {
     "id": 31,

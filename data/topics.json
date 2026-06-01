@@ -429,7 +429,8 @@
       "ubezpieczenie należności"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-06-01T13:27:29.636Z"
   },
   {
     "id": 32,

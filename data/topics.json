@@ -471,7 +471,8 @@
       "embargo"
     ],
     "category": "prawo",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-06-11T12:01:07.427Z"
   },
   {
     "id": 35,

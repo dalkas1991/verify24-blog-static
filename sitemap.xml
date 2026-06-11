@@ -209,4 +209,10 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
+<url>
+      <loc>https://blog.verify24.pl/lista-sankcyjna-jak-sprawdzic.html</loc>
+      <lastmod>2026-06-11</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 </urlset>

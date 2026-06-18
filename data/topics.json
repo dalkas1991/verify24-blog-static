@@ -499,7 +499,8 @@
       "API weryfikacja"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-06-18T11:42:04.656Z"
   },
   {
     "id": 37,

@@ -527,7 +527,8 @@
       "dostawca gastronomiczny"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-06-25T10:31:38.409Z"
   },
   {
     "id": 39,

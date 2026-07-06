@@ -569,7 +569,8 @@
       "ubezpieczenie eksportu"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-06T11:54:44.165Z"
   },
   {
     "id": 42,

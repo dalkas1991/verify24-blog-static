@@ -583,7 +583,8 @@
       "sprawdzenie zastawów"
     ],
     "category": "KRS",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-13T10:49:19.947Z"
   },
   {
     "id": 43,

@@ -611,7 +611,8 @@
       "ryzyko kredytowe"
     ],
     "category": "ryzyko-biznesowe",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-20T10:40:10.759Z"
   },
   {
     "id": 45,

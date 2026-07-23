@@ -625,7 +625,8 @@
       "sprawdzenie PKD"
     ],
     "category": "NIP",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-23T10:08:36.230Z"
   },
   {
     "id": 46,

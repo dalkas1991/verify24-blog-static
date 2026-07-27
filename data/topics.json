@@ -639,7 +639,8 @@
       "automatyczny monitoring"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-27T11:10:01.695Z"
   },
   {
     "id": 47,

@@ -681,7 +681,8 @@
       "dostawca rolny"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-06T10:22:07.477Z"
   },
   {
     "id": 50,

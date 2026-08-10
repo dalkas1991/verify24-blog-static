@@ -695,7 +695,8 @@
       "proces weryfikacyjny"
     ],
     "category": "poradnik",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-10T09:06:53.963Z"
   },
   {
     "id": 51,

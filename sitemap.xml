@@ -311,4 +311,10 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
+<url>
+      <loc>https://blog.verify24.pl/gtd-weryfikacja-przewoznika-miedzynarodowego.html</loc>
+      <lastmod>2026-08-13</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 </urlset>

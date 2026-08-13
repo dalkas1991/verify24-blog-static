@@ -709,7 +709,8 @@
       "weryfikacja spedytora"
     ],
     "category": "transport",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-13T08:59:06.227Z"
   },
   {
     "id": 52,

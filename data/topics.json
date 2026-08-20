@@ -737,7 +737,8 @@
       "NIP europejski"
     ],
     "category": "VAT",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-20T08:22:03.800Z"
   },
   {
     "id": 54,

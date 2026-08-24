@@ -751,7 +751,8 @@
       "kto podpisuje umowę"
     ],
     "category": "KRS",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-24T08:36:20.520Z"
   },
   {
     "id": 55,

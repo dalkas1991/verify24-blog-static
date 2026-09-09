@@ -41,3 +41,21 @@ ANTHROPIC_API_KEY=sk-ant-... node scripts/generate-post.js
 - `scripts/generate-post.js` — Post generator (Claude API)
 - `scripts/templates.js` — HTML templates
 - `.github/workflows/publish-post.yml` — Automation workflow
+
+---
+
+## Szybkie info (CEO)
+
+Blog SEO dla Verify24 — automatycznie publikuje 2 posty tygodniowo.
+
+### Jak aktualizować
+
+- Nowe tematy SEO → dodawaj do `data/topics.json` (status: "pending")
+- Ręczny post → Actions → "Generate & Publish Blog Post" → Run workflow
+- Status projektu → aktualizuj w `asystenci/dane/projekty-status.md`
+
+### Powiązani asystenci
+
+- @content — planuje tematy i strategię contentu bloga
+- @cmo — decyduje o kierunku SEO i grupach docelowych
+- @ceo → opcja 5 (Szanse wzrostu) — analizuje wpływ bloga na leady

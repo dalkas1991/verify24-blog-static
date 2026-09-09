@@ -1,13 +1,10 @@
 name: Daily Agent — Verify24
 
 on:
-  schedule:
-    # Poranny brief — 7:00 czasu polskiego (UTC+2 lato / UTC+1 zima)
-    # Ustawione na 5:00 UTC (działa dla CEST = lato)
-    - cron: '0 5 * * 1-5'
-    # Wieczorne podsumowanie — 20:00 czasu polskiego
-    # Ustawione na 18:00 UTC
-    - cron: '0 18 * * 1-5'
+  # Automatyczny harmonogram wyłączony — Verify24 (strona) praktycznie nie istnieje.
+  # schedule:
+  #   - cron: '0 5 * * 1-5'   # poranny brief
+  #   - cron: '0 18 * * 1-5'  # wieczorne podsumowanie
 
   # Możliwość ręcznego uruchomienia z poziomu GitHub → Actions
   workflow_dispatch:

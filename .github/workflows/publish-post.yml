@@ -1,9 +1,9 @@
 name: Generate & Publish Blog Post
 
 on:
-  schedule:
-    - cron: '0 8 * * 1'   # Monday 08:00 UTC
-    - cron: '0 8 * * 4'   # Thursday 08:00 UTC
+  # schedule:   # wyłączone 2026-10-25 — odkomentuj, aby wznowić
+  #   - cron: '0 8 * * 1'   # Monday 08:00 UTC
+  #   - cron: '0 8 * * 4'   # Thursday 08:00 UTC
   workflow_dispatch:        # Manual trigger for testing
 
 permissions:
